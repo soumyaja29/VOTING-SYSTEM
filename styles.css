@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8d7f3; /* Light pink background */
+}
+
+#app {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #e0f7fa; /* Light blue background for the container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #d63384; /* Deep pink text */
+    margin-bottom: 20px;
+}
+
+#candidates {
+    margin: 20px 0;
+    color: #007bff; /* Blue text for candidate info */
+    font-size: 1.1em;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #007bff; /* Blue text for labels */
+    font-weight: bold;
+}
+
+input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #d63384; /* Pink border for input fields */
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    background-color: #d63384; /* Deep pink button background */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #b0276a; /* Slightly darker pink on hover */
+}
+
+button:active {
+    background-color: #9f205d; /* Even darker pink when active */
+}
+
+p {
+    background-color: #f3e8fd; /* Light pastel purple for candidate text */
+    padding: 10px;
+    border: 1px solid #007bff; /* Blue border */
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+#vote-button {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    #app {
+        padding: 15px;
+    }
+
+    button {
+        padding: 8px 12px;
+        font-size: 0.9em;
+    }
+}
