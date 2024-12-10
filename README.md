@@ -18,3 +18,5 @@ Features
 
 2. Smart Contract:
    - Solidity: Manages voting logic, candidate storage, and vote tallying.
+  
+site   - https://soumyaja29.github.io/VOTING-SYSTEM/
